@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+header img {
+    width: 70px;
+    margin-top: 2em;
+    margin-left: 5em;
+}
+
+nav {
+    margin-top: 2em;
+    margin-right: 5em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8E8E90;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 300ms;
+    padding: 1em;
+}
+
+nav a:hover {
+    color: #F4DAA9;
+}

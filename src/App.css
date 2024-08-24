@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: camptonSB;
+    src: url('fonts/CamptonSemiBold.otf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: camptonL;
+    src: url('fonts/CamptonLight.otf');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: camptonBL;
+    src: url('fonts/CamptonBlack.otf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+* {
+    font-family: camptonSB, serif;
+    scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+::selection {
+    background-color: #F4DAA9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1,
+h2,
+p,
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    padding: 2em 5em 0em 5em;
+    position: relative;
+    background: rgb(15, 15, 17);
+    background: linear-gradient(90deg, rgba(15, 15, 17, 1) 0%, rgba(30, 30, 33, 1) 25%, rgba(37, 38, 41, 1) 50%, rgba(30, 30, 33, 1) 75%, rgba(15, 15, 17, 1) 100%);
+    overflow-x: hidden;
+}
+
+/* ---------------------------------------------------- REUSABLE CODE ---------------------------------------------------- */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------------------------------------------------- MAIN ---------------------------------------------------- */
+
+main {
+    width: 100%;
+    flex-direction: column;
+    gap: 2em;
+    position: relative;
+}
+
+.hero-bg {
+    background: rgb(61, 62, 67);
+    background: radial-gradient(circle, rgb(55, 56, 61) 0%, rgb(14, 14, 16) 100%);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: -2.5em;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }

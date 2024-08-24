@@ -1,0 +1,47 @@
+/* ---------------------------------------------------- HERO CONTENT ---------------------------------------------------- */
+
+#hero {
+    width: 50vw;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#hero div {
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+
+#hero div span {
+    height: 0.6em;
+    width: 70%;
+    background-color: #F4DAA9;
+}
+
+#hero div h3 {
+    color: #8E8E90;
+    text-transform: uppercase;
+    width: 7em;
+    font-size: 1.6em;
+    padding: 0;
+    margin: 0;
+}
+
+#hero h1 {
+    font-size: 18.5vw;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 9;
+    height: 0.85em;
+    transform: translateY(-0.1em);
+}
+
+#hero h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    text-align: end;
+    color: #F4DAA9;
+    z-index: 10;
+}
