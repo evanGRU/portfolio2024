@@ -1,6 +1,6 @@
-import './projectsElement.css';
+import './projectDetailScroll.css';
 
-function ProjectsElement({project}) {
+function ProjectDetailScroll({project}) {
     return (
         <article className="flex">
             <div className="text flex">
@@ -15,4 +15,4 @@ function ProjectsElement({project}) {
     );
 }
 
-export default ProjectsElement;
+export default ProjectDetailScroll;

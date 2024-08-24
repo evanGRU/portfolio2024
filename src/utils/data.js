@@ -1,7 +1,4 @@
-const projectTypes = {
-    website: 'Site Web',
-    model: 'Modélisation 3D',
-}
+import {projectTypes} from "./constants";
 
 export const projectsObject = [
     {
