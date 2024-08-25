@@ -9,7 +9,7 @@ function Switch({toggle}) {
 
     return (
         <label className="switch" onClick={handleSwitch}>
-            <input type="checkbox" value={'test'} name={'input'}></input>
+            <input type="checkbox" name={'input'}></input>
             <span className="slider"></span>
         </label>
     );
