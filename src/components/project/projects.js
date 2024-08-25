@@ -11,7 +11,7 @@ function Projects() {
     return (
         <section id="projects" className="projects-container flex-column">
             <div className='projects-header'>
-                <h1 className='projects-title'>Mes projets étudiants</h1>
+                <h1 className='projects-title'>Mes projets</h1>
                 <Switch displayMode={displayMode} toggle={toggleDisplayMode}/>
             </div>
             {

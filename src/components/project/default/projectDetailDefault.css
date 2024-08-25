@@ -23,9 +23,14 @@
     margin: 0;
 }
 
-.projects-content-default .text a {
+.projectDefault-links {
+    display: flex;
     position: absolute;
     bottom: 5em;
+    gap: 1em;
+}
+
+.projectDefault-links a {
     text-transform: uppercase;
     padding: 1.5em;
     border-radius: 10em;
@@ -33,10 +38,21 @@
     color: #fff;
     border: none;
     transition: 300ms;
+    display: flex;
+    align-items: center;
 }
 
-.projects-content-default .text a:hover {
+.projectDefault-links a:hover {
     background-color: #ddae57;
+}
+
+.link-github {
+    padding: 1em !important;
+}
+
+.projectDefault-links a img {
+    height: 30px;
+    width: 30px;
 }
 
 .projects-content-default .pics {
@@ -67,4 +83,9 @@
 #picture5 {
     background: rgb(244, 243, 245);
     background: linear-gradient(90deg, rgba(244, 243, 245, 1) 0%, rgba(67, 68, 68, 1) 100%);
+}
+
+#picture6 {
+    background: rgb(238,231,255);
+    background: linear-gradient(90deg, rgba(78,71,218,1) 0%, rgba(238,231,255,1) 100%);
 }
