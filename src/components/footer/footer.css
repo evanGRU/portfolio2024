@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: #8E8E90 solid 1px;
+}
+
+footer h3 {
+    color: #c7c3c3;
+}
+
+footer div a {
+    color: #F4DAA9;
+    font-size: 1em;
+    padding: 0.4em;
+    transition: 300ms;
+}
+
+footer div a:hover {
+    color: #ddae57;
+}
