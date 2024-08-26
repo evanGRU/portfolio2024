@@ -64,7 +64,7 @@
 
 /* Tags color */
 .tagHTML {
-    background-color: rgba(220, 20, 60, 0.8);
+    background-color: rgba(255, 69, 0, 0.8);
 }
 .tagCSS {
     background-color: rgba(65, 105, 225, 0.8);
@@ -75,7 +75,7 @@
 .tagPHP {
     background-color: rgba(72, 61, 139, 0.8);
 }
-.tagREACTNATIVE {
+.tagREACT {
     background-color: rgba(0, 191, 255, 0.8);
 }
 .tagJS {

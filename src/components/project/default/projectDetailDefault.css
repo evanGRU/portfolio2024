@@ -60,6 +60,10 @@
     width: 70%;
 }
 
+#pictureDefault {
+    background: linear-gradient(90deg, #F4DAA9 0%, #ddae57 100%);
+}
+
 #picture1 {
     background: rgb(48, 49, 49);
     background: linear-gradient(90deg, rgba(48, 49, 49, 1) 0%, rgba(12, 10, 10, 1) 100%);
@@ -88,4 +92,9 @@
 #picture6 {
     background: rgb(238,231,255);
     background: linear-gradient(90deg, rgba(78,71,218,1) 0%, rgba(238,231,255,1) 100%);
+}
+
+#picture7 {
+    background: rgb(48, 49, 49);
+    background: linear-gradient(90deg, rgba(48, 49, 49, 1) 0%, #F4DAA9 100%);
 }

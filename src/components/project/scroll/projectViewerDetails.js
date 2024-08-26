@@ -66,7 +66,10 @@ function ProjectViewerCard({project, timerState, updateTimerState}) {
                                     return <h5 className='case-style-tags tagPHP'>{tag}</h5>
                                     break;
                                 case 'REACTNATIVE':
-                                    return <h5 className='case-style-tags tagREACTNATIVE'>{tag}</h5>
+                                    return <h5 className='case-style-tags tagREACT'>{tag}</h5>
+                                    break;
+                                case 'REACT':
+                                    return <h5 className='case-style-tags tagREACT'>{tag}</h5>
                                     break;
                                 case 'JS':
                                     return <h5 className='case-style-tags tagJS'>{tag}</h5>
