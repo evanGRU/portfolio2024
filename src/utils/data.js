@@ -120,6 +120,25 @@ const initialProjectsObject = [
             ' s\'agit de ma première application mobile. Beaucoup de manipulation de données JSON via des requêtes API.',
         range: projectRanges.school
     },
+    {
+        id: 7,
+        title: 'Portfolio 2024',
+        date: 2024,
+        type: projectTypes.website,
+        picture: {
+            path: 'img/portfolio2024.png',
+            pathBis: 'img/projects/portfolio2024.png',
+            alt: 'portfolio2024',
+            logoPath: 'img/logo.svg'
+        },
+        links: {
+            github: 'https://github.com/evanGRU/portfolio2024',
+            website: 'https://evan-gruchot.vercel.app/'
+        },
+        tags: ['REACT', 'CSS', 'JS'],
+        description: 'Portfolio de mes projets étudiants et personnels. Mise en application de mes compétences REACT.',
+        range: projectRanges.professional
+    },
 ]
 
 function compare(a, b) {

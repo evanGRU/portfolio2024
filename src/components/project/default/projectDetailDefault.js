@@ -17,8 +17,8 @@ function ProjectDetailDefault({project}) {
                     }
                 </div>
             </div>
-            <div id={`picture${project.id}`} className="pics flex bg1">
-                <img src={project?.picture?.path} alt={project?.picture?.alt} />
+            <div id={project?.picture?.path ? `picture${project.id}` : 'pictureDefault'} className="pics flex bg1">
+                <img src={project?.picture?.path ? project.picture.path : 'img/default.png'} alt={project?.picture?.alt} />
             </div>
         </article>
     );
